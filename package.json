@@ -1,0 +1,22 @@
+{
+  "name": "optimizely-isomorphic-dispatcher",
+  "version": "1.0.0",
+  "description": "An isomorphic event dispatcher to override the default Optimizely event dispatcher. This can be used in both browser and node environments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "contributors": [
+    {"name": "Dan Tame"},
+    {"name": "Jordan Adams"}
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^3.4.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.6"
+  }
+}
